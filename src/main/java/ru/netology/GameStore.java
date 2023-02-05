@@ -1,4 +1,5 @@
 package ru.netology;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -12,7 +13,7 @@ public class GameStore {
      * Ключ - имя игрока
      * Значение - суммарное количество часов в игры этого каталога
      */
-    private Map<String, Integer> playedTime = new HashMap<>();
+    Map<String, Integer> playedTime = new HashMap<>();
 
     /**
      * Создание объекта игры с заданными заголовком и жанром
